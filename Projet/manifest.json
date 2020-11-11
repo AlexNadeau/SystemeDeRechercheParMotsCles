@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Extension Group 2.3",
+  "version": "5.5",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>",
+        "file://*/*.pdf"
+      ],
+
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+          "_execute_browser_action": {
+            "suggested_key": {
+              "default": "Alt+PageUp",
+              "mac": "Shift+Command+Up"
+            }
+          }
+        },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons" : {
+    "48" : "icons8-view-50.png"
+  },
+  "background":{
+    "scripts": ["background.js"],
+    "persistent" : false
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "unlimitedStorage",
+    "storage",
+    "notifications",
+    "alarms",
+    "contextMenus"
+  ]
+
+
+}

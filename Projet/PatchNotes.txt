@@ -1,0 +1,9 @@
+-Ajouter un filtre
+
+-Augmenter laccesibilite
+
+-Peut sauver GIFs, JPGs et PNGs
+
+-Peut ouvrire l'extension à l'aide de combinaison clés
+
+Arranger quelques bugs

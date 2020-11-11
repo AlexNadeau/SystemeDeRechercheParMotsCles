@@ -1,0 +1,133 @@
+<html>
+
+<style>
+
+.buttons {
+  background-color: #ffc845;
+  height: 40px;
+  width:40px;
+}
+.icons{
+  background-image : url(icons8-trash-48.png);
+  background-size: cover;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+  .content-table{
+    border-collapse: collapse;
+    min-width: 800px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    transition-duration: 0.4s;
+    margin: 50px auto 0;
+  }
+  .content-table thead tr {
+    background-color: #ffc845;
+    color: #003b49;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+  }
+  .content-table th {
+    padding: 12px 15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .content-table td,{
+    padding: 12px 15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .keyword{
+    padding: 12px 15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    transition: opacity 1s;
+  }
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+    transition: opacity 1s;
+  }
+  .content-table tbody tr:hover {
+    border-bottom: 2px solid black;
+    background-color: #f4f4f4;
+  }
+
+  .wrapper .header {
+  background:  #ffc845;
+}
+
+.wrapper .title {
+  padding: 50px 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  color: #003b49;
+}
+
+.wrapper .search_box {
+  max-width: 1000px;
+  background:  #ffc845;
+  margin: 0 auto;
+  padding: 25px 0 50px;
+  border-radius: 3px;
+}
+
+.wrapper .search_box input {
+  border: 0;
+  border-bottom: 2px solid #ffc845;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  background: transparent;
+  color: #003b49;
+  font-size: 16px;
+  transition-duration: 0.8s
+}
+
+::placeholder {
+  color: #003b49;
+}
+
+.wrapper .search_box input:focus {
+  border-bottom: 2px solid #003b49;
+}
+</style>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="title">
+        System de recherche par mots cles
+      </div>
+
+      <div class="search_box">
+        <input type="text" id="search_input" placeholder="Fliter Table Using Keywords">
+      </div>
+    </div>
+  <table class = "content-table">
+    <thead>
+      <tr>
+        <th>Keyword</th>
+        <th>Content</th>
+        <th>URL</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody id = "tableData"></tbody>
+  </table>
+</body>
+
+<script src = "newscreen.js"></script>
+
+
+
+</html>

@@ -1,0 +1,31 @@
+-Ajouté du CSS pour rendre la page plus accessible
+
+-Ajouté l'option de pesez ENTER au lieu des buttons
+
+-La taille du UI du système ouvre dépendament de la taille de l'écran 
+
+-Ajouté l'option de supprimer un mot clé 
+
+-Ajouté l'option de voir tous les clés sauvegardés
+
+************New version********
+
+-Ajouté l'option de sauvé le URl du site courant.
+
+-Changer la facon donc l'utilisateur voie toute les donnes
+
+-Faite les liens clickable dans newscreen
+
+-Creer des notifications chromes
+
+**************NEW VERSION************
+
+-Supprimer des fonctions inutiles(show,delete)
+
+-Register fonctionne avec toutes les fonctionnalites(avent on avait besoins de 3 register)
+
+-Sauvegardes des photos
+
+-Augmenté l'accessibilité
+
+-Rendu le code moins complexe

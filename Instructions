@@ -1,0 +1,6 @@
+This Chrome extension allows the user to save String data either manually or from a online web site
+If the user wants to save data from a website, he must highlight text on the screen and input a keyword and press "Register"
+If the user wants to save data manually, he must write in the text box called Text as well as a keyword and press "Register"
+The user can save PNG,GIF or JPG files by dropping such files in the big box and write a keyword and press "Register"
+The user can view all saved data by pressign the "Show all keys" button. This wil bring the user to a new screen where a table is generated with all the keyword and the data stored within them
+The user can filter through his saved data by typing in the search box or delete the keyword by pressing the garbage bin.
